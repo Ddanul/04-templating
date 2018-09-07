@@ -2,7 +2,7 @@
 
 let articleView = {};
 
-// TODO: Where possible, refactor methods into arrow functions, including the document.ready() method at the bottom.
+// DONE: Where possible, refactor methods into arrow functions, including the document.ready() method at the bottom.
 
 // COMMENT: How do arrow functions affect the context of "this"? How did you determine if a function could be refactored?
 // code can not be refactored because of the use of this in all of the functions. when referencing this in functions you cannot using arrow functions because of golbal bubbling.
